@@ -10,6 +10,7 @@ public class fibonacci {
         }
         return array[n-1];
     }
+    /* nth sayinin son basamagi */
     static int fibonacciLastDigit(int n) {
         int [] array = new int[n];
         array[0] = 0;
